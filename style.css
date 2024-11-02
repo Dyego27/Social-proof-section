@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: "League Spartan", sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80dvh;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: -95px;
+}
+.conteudo{
+    margin-right: 200px;
+}
+.conteudo h1{
+    width: 350px;
+    font-size: 50px;
+    color: hsl(300, 43%, 22%);
+}
+.conteudo ul{
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 9px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 400px;
+    position: relative;
+    right: -50px;
+    border-radius: 9px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 400px;
+    position: relative;
+    right: -110px;
+    border-radius: 9px;
+}
+.container img,.container2 img,.container3 img{
+    margin-right: 8px;
+}
+.container p,.container2 p,.container3 p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 16px;
+}
+section{
+    display: flex;
+}
+.container1{
+    width: 300px;
+    margin-right: 40px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 40px 40px 60px 40px;
+    border-radius: 9px;
+}
+.container22{
+    width: 300px;
+    margin-right: 40px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 40px 40px 60px 40px;
+    border-radius: 9px;
+    position: relative;
+    bottom: -25px;
+}
+.container33{
+    width: 300px;
+    margin-right: 40px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 40px 40px 60px 40px;
+    border-radius: 9px;
+    position: relative;
+    bottom: -50px;
+}
+
+.a{   
+    color: hsl(333, 80%, 67%);
+}
+.container1 li,.container22 li, .container33 li{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container1 ul,.container22 ul,.container33 ul{
+    list-style-type: none;
+}
+.container1  img,.container22 img, .container33 img{
+    border-radius: 100%;
+    width: 60px;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.avatar li{
+    margin-left: 20px;
+}
+.s{
+    font-weight: 700;
+}
